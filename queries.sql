@@ -1,7 +1,14 @@
+-- ------------** ALL TABLES **------------
+SELECT * FROM Members;
+SELECT * FROM Sports;   
+SELECT * FROM Enrollments;      
+
+
 -- 1. Scalar Subquery in SELECT
 -- Show each member with the average age of all members
 SELECT 
-    first_name || ' ' || last_name AS member_name,
+    first_name,
+    last_name,
     age,
     (SELECT AVG(age) FROM Members) AS avg_age
 FROM Members;
@@ -9,7 +16,8 @@ FROM Members;
 -- 2. Subquery in WHERE with IN
 -- Find members enrolled in sports coached by 'Coach Smith'
 SELECT 
-    first_name || ' ' || last_name AS member_name
+    first_name,
+    last_name
 FROM Members
 WHERE member_id IN (
     SELECT member_id
@@ -34,7 +42,8 @@ WHERE EXISTS (
 -- 4. Correlated Subquery
 -- Find members older than the average age of members from their city
 SELECT 
-    first_name || ' ' || last_name AS member_name,
+    first_name,
+    last_name,
     age,
     city
 FROM Members m
