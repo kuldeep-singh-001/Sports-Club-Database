@@ -17,7 +17,7 @@ We practice:
 5. Run `queries.sql` to try out subquery examples.
 
 ## 📂 Files
-- `schema.sql` → Database schema (Members, Sports, Enrollments)  
+- `schema.sql` → Database schema (Members, Sports, Enrollments)
 - `data.sql` → Sample dataset  
 - `queries.sql` → Example subquery queries  
 - `docs/er_diagram.png` → ER Diagram  
@@ -31,3 +31,4 @@ After completing this, you’ll be able to:
 - Apply **scalar** and **correlated subqueries**
 - Filter results with **IN** and **EXISTS**
 - Simplify logic using **inline views**
+
