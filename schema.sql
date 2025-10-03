@@ -1,3 +1,6 @@
+CREATE DATABASE Sports_club;
+use Sports_club;
+
 -- Members
 CREATE TABLE Members (
     member_id INT PRIMARY KEY AUTO_INCREMENT,
