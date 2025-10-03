@@ -10,11 +10,10 @@ We practice:
 - Inline views (subqueries in `FROM`)
 
 ## 🚀 How to Run
-1. Open **DB Browser for SQLite** (or MySQL Workbench).
-2. Create a new database `Sports_club.db`.
-3. Run `schema.sql` to create tables.
-4. Run `data.sql` to insert sample data.
-5. Run `queries.sql` to try out subquery examples.
+1. Open **MySQL Workbench** (or DB Browser for SQLite).
+2. Run `schema.sql` to create the database and tables.
+3. Run `data.sql` to insert sample data.
+4. Run `queries.sql` to try out subquery examples.
 
 ## 📂 Files
 - `schema.sql` → Database schema (Members, Sports, Enrollments)
@@ -31,4 +30,5 @@ After completing this, you’ll be able to:
 - Apply **scalar** and **correlated subqueries**
 - Filter results with **IN** and **EXISTS**
 - Simplify logic using **inline views**
+
 
